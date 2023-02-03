@@ -45,17 +45,17 @@
 
   /* solid */
 
-  --jet: hsl(0, 0%, 31%); /** stoke*/
+  --jet: hsl(0, 0%, 37%); /** stoke*/
   --onyx: hsl(0, 0%, 33%);/** creative worker*/
-  --eerie-black-1: hsl(0, 0%, 19%);
+  --eerie-black-1: hsl(0, 0%, 37%);
   --eerie-black-2: hsl(0, 0%, 43%); /** Box */
   --smoky-black: hsl(0, 0%, 40%); /** BG */
   --white-1: hsl(0, 0%, 100%);
-  --white-2: hsl(0, 0%, 98%); /**sub tittle */
+  --white-2: hsl(0, 0%, 100%); /**sub tittle */
   --orange-yellow-crayola: hsl(45, 100%, 72%);
   --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 1%, 77%); /** teks kecil*/
-  --light-gray-70: hsla(0, 3%, 7%, 0.7);
+  --light-gray: hsl(0, 0%, 83%); /** teks kecil*/
+  --light-gray-70: hsla(0, 1%, 77%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
 
