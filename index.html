@@ -17,6 +17,10 @@
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
+  <!-- modal.css -->
+  <link rel="stylesheet" href="./assets/css/modal.css">
+
+
   <!--
     - google font link
   -->
@@ -374,14 +378,8 @@
 
               </div>
             </li>
-
-            
-
           </ul>
-
         </section>
-
-
         <!--
           - testimonials modal
         -->
@@ -417,11 +415,8 @@
                   and is very concerned about the needs of client.  -->
                 </p>
               </div>
-
             </div>
-
           </section>
-
         </div>
 
 
@@ -434,6 +429,12 @@
           <h3 class="h3 clients-title">Clients</h3>
 
           <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item"> 
+              <a href="https://www.mmnatures.com/">
+                <img src="./assets/images/logo-8-mm.png  " alt="client logo">
+              </a>
+            </li>
 
             <li class="clients-item"> 
               <a href="https://www.map.co.id/about-us/retail/">
@@ -476,23 +477,11 @@
                 <img src="./assets/images/erlyana.png" alt="client logo">
               </a>
             </li>
-
-            
-
-
           </ul>
 
         </section>
 
       </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
 
       <article class="resume" data-page="resume">
 
@@ -780,9 +769,7 @@
 
             </li>
           </ol>
-
         </section>
-
         <section class="skill">
 
           <h3 class="h3 skills-title">My skills</h3>
@@ -877,18 +864,13 @@
           </ul>
 
         </section>
-
       </article>
-
-
-
-
 
       <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="portfolio" data-page="portfolio" >
 
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
@@ -925,10 +907,13 @@
             <li class="filter-item">
               <button data-filter-btn>Motion Graphic</button>
             </li>
+            <li class="filter-item">
+              <button data-filter-btn>3D</button>
+            </li>
 
           </ul>
 
-          <div class="filter-select-box">
+          <div class="filter-select-box" >
 
             <button class="filter-select" data-select>
 
@@ -969,6 +954,9 @@
               <li class="select-item">
                 <button data-select-item>Motiongraphic</button>
               </li>
+              <li class="select-item">
+                <button data-select-item>3D</button>
+              </li>
 
             </ul>
 
@@ -976,14 +964,94 @@
 
           <ul class="project-list">
 
+<!-- MERPATI MAHARDIKA -->
+            <!--3D  -->
+            <!-- Display Modal 1 -->
+            <li class="project-item  active" data-filter-item data-category="3d">
+              <a target="_blank">
+                <figure class="project-img">
+                  <img src="./assets/images/fullpreview/MR-Orchid.jpg" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Redesign Meeting Room (PT. Merpati Mahardika)</h3>
+                <p class="project-category">3D</p>
+              </a>
+                  <button class="modal-open" data-modal="modal1">Full Preview</button>
+              </li>
+
+            <!-- Display Modal 2 -->
+            <li class="project-item  active" data-filter-item data-category="3d">
+              <a target="_blank">
+                <figure class="project-img">
+                  <img src="./assets/images/fullpreview/3DBooth_mm.jpg" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">3D Design Booth (PT. Merpati Mahardika)</h3>
+                <p class="project-category">3D</p>
+              </a>
+                  <button class="modal-open" data-modal="modal2">Full Preview</button>
+              </li>
+
+            <!-- Display Modal 3 -->
+            <li class="project-item  active" data-filter-item data-category="3d">
+              <a target="_blank">
+                <figure class="project-img">
+                  <img src="./assets/images/fullpreview/3d_stage.jpg" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Paguyuban's Cisauk Stage Design</h3>
+                <p class="project-category">3D</p>
+              </a>
+                  <button class="modal-open" data-modal="modal3">Full Preview</button>
+              </li>
+
+            <!-- Display Modal 4 -->
+            <li class="project-item  active" data-filter-item data-category="3d">
+              <a target="_blank">
+                <figure class="project-img">
+                  <img src="./assets/images/fullpreview/3D_LobbyNdermaClinic.jpg" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">NDerma Clinic-Lobby </h3>
+                <p class="project-category">3D</p>
+              </a>
+                  <button class="modal-open" data-modal="modal4">Full Preview</button>
+              </li>
+
+
+              <!-- Modal content -->
+              <!-- Modal1 -->
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                    <img class="fullimage" src="./assets/images/fullpreview/MR-Orchid.jpg">    
+                </div>
+              </div>
+              <!-- Modal2 -->
+              <div id="modal2" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                    <img class="fullimage" src="./assets/images/fullpreview/3DBooth_mm.jpg">    
+                </div>
+              </div>
+              <!-- Modal3 -->
+              <div id="modal3" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                    <img class="fullimage" src="./assets/images/fullpreview/3d_stage.jpg">    
+                </div>
+              </div>
+               <!-- Modal4 -->
+               <div id="modal4" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                    <img class="fullimage" src="./assets/images/fullpreview/3D_LobbyNdermaClinic.jpg">    
+                </div>
+              </div>
+    
+           
+       
+
             <li class="project-item  active" data-filter-item data-category="logo">
               <a target="_blank">
 
                 <figure class="project-img">
-                  <!-- <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div> -->
-
                   <img src="./assets/images/Logo/lexi-1.png" alt="finance" loading="lazy">
                 </figure>
 
@@ -993,6 +1061,7 @@
 
               </a>
             </li>
+         
             <li class="project-item  active" data-filter-item data-category="logo">
               <a target="_blank">
 
@@ -1256,8 +1325,7 @@
                 <p class="project-category">Poster</p>
               </a>
             </li>
-
-               
+          
             <li class="project-item  active" data-filter-item data-category="poster">
               <a target="_blank">
                 <figure class="project-img">
@@ -1568,8 +1636,7 @@
                 <p class="project-category">Motiongraphic</p>
               </a>
             </li>
-            
-            
+
             
             
             <!-- MAP  ---------------------------------------------------------------------->
@@ -2477,16 +2544,15 @@
         </section>
 
       </article>
-
     </div>
-
   </main>
-
-
   <!--
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/smodul.js"></script>
+
+
 
   <!--
     - ionicon link
@@ -2497,6 +2563,11 @@
 
 
   <!--Email-->
+  <!-- JS Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 
 </body>
 
