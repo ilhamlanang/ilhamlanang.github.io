@@ -20,6 +20,7 @@
 /* Modal Content */
 .modal-content {
   
+  display: flex;
   border-radius: 10px;
   background-color: #fefefe;
   position: absolute;
@@ -28,8 +29,8 @@
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 50%; /* Lebar container */
-  height: 40%; /* Tinggi container */
+  max-width: 75%; /* Lebar container */
+  max-height: 100px; /* Tinggi container */
   padding: 20px;
   border: 1px solid #888;
   
@@ -43,6 +44,7 @@
   margin: auto;
   align-content: center;
   width: 100%;
+  max-height: fit-content;
   border: 1px;
   border-radius: 10px;
 }
